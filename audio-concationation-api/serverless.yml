@@ -1,0 +1,24 @@
+service: audio-concationation-api
+frameworkVersion: '3'
+
+provider:
+ name: aws
+ runtime: nodejs18.x
+ region: ap-southeast-2
+
+functions:
+ api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /index
+          method: get
+      - httpApi:
+          path: /index
+          method: post
+      - httpApi:
+          path: /index
+          method: put
+      - httpApi:
+          path: /index
+          method: delete

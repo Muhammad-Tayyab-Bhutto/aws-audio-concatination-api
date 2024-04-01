@@ -1,0 +1,22 @@
+{
+  "name": "audio-files-concatenation",
+  "version": "1.0.0",
+  "description": "this is created by Muhammad Tayyab Bhutto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "bubble.io",
+    "pluggin",
+    "lambda"
+  ],
+  "author": "Muhammad Tayyab Bhutto",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1590.0",
+    "axios": "^1.6.8",
+    "stream": "^0.0.2"
+  }
+}
